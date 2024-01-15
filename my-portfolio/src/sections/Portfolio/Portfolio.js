@@ -1,19 +1,19 @@
 import React from 'react';
-import Project from '../components/Project/Project';
+import Project from '../../components/Project/index';
 import './Portfolio.css';
 
 // Example data for your projects
 const projectsData = [
     {
         title: "Project 1",
-        image: "path/to/image1.jpg", // Replace with actual image path
+        //image: "path/to/image1.jpg", // Replace with actual image path
         description: "Brief description of Project 1.",
         liveLink: "http://live-link-to-project1.com",
         repoLink: "http://github-link-to-project1.com"
     },
     {
         title: "Project 2",
-        image: "path/to/image2.jpg", // Replace with actual image path
+        //image: "path/to/image2.jpg", // Replace with actual image path
         description: "Brief description of Project 2.",
         liveLink: "http://live-link-to-project2.com",
         repoLink: "http://github-link-to-project2.com"
