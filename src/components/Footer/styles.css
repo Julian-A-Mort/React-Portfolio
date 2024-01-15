@@ -1,0 +1,16 @@
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Adjust background color as needed */
+    color: white; /* Adjust text color as needed */
+}
+
+.footer a {
+    color: white; /* Adjust link color as needed */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

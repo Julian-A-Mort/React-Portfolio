@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header/index';
-import Project from './components/Project/index';
+import Footer from './components/Footer/index';
 import AboutMe from './sections/AboutMe/AboutMe';
 import Contact from './sections/Contact/Contact';
-import
-// TO DO Import other components 
+import Portfolio from './sections/Portfolio/Portfolio';
+import Resume from './sections/Resume/Resume';
 
 function App() {
     return (
@@ -17,9 +17,8 @@ function App() {
                     <Route path="/portfolio" component={Portfolio} />
                     <Route path="/contact" component={Contact} />
                     <Route path="/resume" component={Resume} />
-                    {/* Add additional Routes as needed */}
                 </Switch>
-                {/* Other components, if any */}
+                <Footer /> {}
             </div>
         </Router>
     );
