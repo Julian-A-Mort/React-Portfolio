@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header/index';
 import Project from './components/Project/index';
-import
-import
+import AboutMe from './sections/AboutMe/AboutMe';
+import Contact from './sections/Contact/Contact';
 import
 // TO DO Import other components 
 

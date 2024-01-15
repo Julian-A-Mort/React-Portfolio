@@ -1,0 +1,14 @@
+.about-me {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.about-me-photo {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #333; /* Change as per your color scheme */
+    margin-bottom: 20px;
+}
