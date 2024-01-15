@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/index';
 import Footer from './components/Footer/index';
-import AboutMe from './sections/AboutMe/AboutMe';
-import Contact from './sections/Contact/Contact';
-import Portfolio from './sections/Portfolio/Portfolio';
-import Resume from './sections/Resume/Resume';
+import AboutMe from './sections/AboutMe/AboutMe.js';
+import Contact from './sections/Contact/Contact.js';
+import Portfolio from './sections/Portfolio/Portfolio.js';
+import Resume from './sections/Resume/Resume.js';
 
 function App() {
     return (
@@ -13,12 +13,12 @@ function App() {
             <div className="App">
                 <Header />
                 <Routes>
-                    <Route exact path="/" component={AboutMe} />
-                    <Route path="/portfolio" component={Portfolio} />
-                    <Route path="/contact" component={Contact} />
-                    <Route path="/resume" component={Resume} />
+                <Route exact path="/" element={<AboutMe />} />
+                    <Route path="/portfolio" element={<Portfolio />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/resume" element={<Resume />} />
                 </Routes>
-                <Footer /> {}
+                <Footer />
             </div>
         </Router>
     );
