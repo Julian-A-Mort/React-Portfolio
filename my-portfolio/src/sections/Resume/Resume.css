@@ -7,14 +7,23 @@
     display: inline-block;
     margin: 20px 0;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
+    background-color: #C589E8;
+    color: #29335C;
     text-decoration: none;
     border-radius: 4px;
+    font-family: Verdana, sans-serif; 
+    font-size: 18px; 
 }
 
 .resume a:hover {
     background-color: #0056b3;
+    color: #F2EFE9;
+
+}
+
+.resume h3 {
+    font-size: 25px; 
+    font-family: Verdana, sans-serif; 
 }
 
 .resume ul {
@@ -24,4 +33,9 @@
 
 .resume li {
     margin: 10px 0;
+}
+
+.resume-text {
+    font-family: Verdana, sans-serif; 
+    font-size: 16px; 
 }

@@ -1,32 +1,29 @@
 import React from 'react';
-import './Resume.css'; 
+import './Resume.css';
 
 const Resume = () => {
     return (
         <div className="resume">
             <h2>My Resume</h2>
             <a href="path/to/your/resume.pdf" download>Download My Resume</a>
-            <h3>Skills</h3>
+    <h3>Skills</h3>
             <ul>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>HTML & CSS</li>
-                <li>Node.js</li>
+                <li className="resume-text">JavaScript</li>
+                <li className="resume-text">React</li>
+                <li className="resume-text">HTML & CSS</li>
+                <li className="resume-text">Node.js</li>
             </ul>
 
             <h3>Education</h3>
             <ul>
-                <li>Diploma in Wine from the international Wine & Spirits Education Trust</li>
-                <li>React</li>
+                <li className="resume-text">Wine & Spirits Education Trust: Diploma (UK)</li>
+                <li className="resume-text">Sydney University: Coding and Webdesign</li>
             </ul>
 
             <h3>History</h3>
             <ul>
-                <li>Owner and Founder of Where's Nick Wine Bar & Goblin Wine Shop</li>
+                <li className="resume-text">Owner and Founder of Where's Nick Wine Bar & Goblin Wine Shop</li>
             </ul>
-
-
-            {/* anything else? */}
         </div>
     );
 };

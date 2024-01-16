@@ -1,19 +1,20 @@
 import React from 'react';
-import './AboutMe.css'; 
-//import yourPhoto from '../../assets/yourPhoto.jpg';
+import './AboutMe.css';
+import yourPhoto from '../../assets/images/profilepic.jpeg';
+
 
 const AboutMe = () => {
     return (
-        <div className="about-me"> 
-
+        <div className="about-me">
             <h2>About Me</h2>
-            <p>Hello! I am a brand spanking new web developer. As a business owner for 10+ years my focus is squarely on making website that look good and work even good...er.</p>
-            {/* Add more here */}
+            <h2>About Me</h2>
+            <img src={yourPhoto} alt="Julian" className="profile-photo" />
+                <p>Hello! I am a brand-new web developer based in Sydney, Australia.</p>
+                <p>I have recently completed the Sydney University coding and website design bootcamp and am keen to keep learning and further my development.</p>
+                <p>I have strong grasp of the fundamentals in cluding Javascript, React etc. Blah.</p>
+                <p>As a current business owner for 10+ years, my focus is squarely on making websites that look good and work even better.</p>
         </div>
     );
 };
 
 export default AboutMe;
-
-// add photo//
-            //<img src={yourPhoto} alt="Julian Photo" className="about-me-photo" /> //
