@@ -1,3 +1,4 @@
+/* Style the About Me container */
 .about-me {
     text-align: center;
     padding: 20px;
@@ -5,6 +6,21 @@
     border-radius: 8px;
 }
 
+/* Style the larger heading with the specified font and color */
+.about-me h2 {
+    font-family: Verdana, sans-serif; /* Specify the desired font */
+    color: #01200F; /* Text color */
+    font-size: 28px; /* Specify the desired font size */
+}
+
+/* Style the paragraph text */
+.about-me p {
+    font-family: Verdana, sans-serif; /* Specify the desired font for paragraph text */
+    font-size: 16px; /* Specify the desired font size for paragraph text */
+    margin-top: 10px; /* Add some margin to separate it from the heading */
+}
+
+/* Style the about-me photo if needed */
 .about-me-photo {
     max-width: 200px;
     height: auto;
