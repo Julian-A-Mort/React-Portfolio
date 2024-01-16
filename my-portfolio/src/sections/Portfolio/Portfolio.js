@@ -1,24 +1,22 @@
 import React from 'react';
 import Project from '../../components/Project/index';
 import './Portfolio.css';
+import textEditorImage from '../../assets/images/texteditor.jpeg';
+import movieQuestImage from '../../assets/images/moviequest.jpg';
 
-// Example data for your projects
 const projectsData = [
     {
-        title: "Project 1",
-        //image: "path/to/image1.jpg", // Replace with actual image path
-        description: "Brief description of Project 1.",
-        liveLink: "http://live-link-to-project1.com",
-        repoLink: "http://github-link-to-project1.com"
+        title: "PWA Text Editor",
+        image: textEditorImage,
+        liveLink: "https://pwa-text-editor-5nlh.onrender.com/",
+        repoLink: "https://github.com/Julian-A-Mort/PWA-Text-Editor"
     },
     {
-        title: "Project 2",
-        //image: "path/to/image2.jpg", // Replace with actual image path
-        description: "Brief description of Project 2.",
-        liveLink: "http://live-link-to-project2.com",
-        repoLink: "http://github-link-to-project2.com"
+        title: "Movie Quest",
+        image: movieQuestImage,
+        liveLink: "https://ajayshans.github.io/moviequest/",
+        repoLink: "https://github.com/ajayshans/moviequest"
     },
-    // Add more projects as needed
 ];
 
 const Portfolio = () => {

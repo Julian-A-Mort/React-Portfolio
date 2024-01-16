@@ -1,9 +1,11 @@
 .project {
     border: 1px solid #ddd;
-    padding: 15px;
-    margin: 15px;
+    padding: 20px; /* Increased from 15px for more internal space */
+    margin: 30px 15px; /* Increased top and bottom margin, left and right remain the same */
     border-radius: 8px;
     text-align: center;
+    width: 300px; /* Example width, adjust as needed */
+    /* Optional: min-width: 250px; to ensure they don't get too small */
 }
 
 .project-image {
@@ -20,8 +22,14 @@
     margin: 0 10px;
     text-decoration: none;
     color: #007bff;
+    font-family: Verdana, sans-serif; 
 }
 
 .project-links a:hover {
     text-decoration: underline;
 }
+
+.project h3 {
+    font-family: Verdana, sans-serif; 
+}
+
