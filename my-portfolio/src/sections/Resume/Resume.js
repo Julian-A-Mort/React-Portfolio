@@ -5,7 +5,7 @@ const Resume = () => {
     return (
         <div className="resume">
             <h2>My Resume</h2>
-            <a href="../../assets/documents/temp_resume.docx" download>Download My Resume</a>
+            <a href="/assets/documents/temp_resume.docx" download="temp_resume.docx">Download My Resume</a>
     <h3>Skills</h3>
             <ul>
                 <li className="resume-text">JavaScript</li>
